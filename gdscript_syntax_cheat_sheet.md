@@ -11,4 +11,11 @@ const gravity = 9.8
 var numberOfStars : int = 3
 
 #basic built in types are bool, int, float, and String
+
+
+#Initialize a variable that can be edited in the graphical editor
+export(float) var Gravity
+
+#Initialize a variable that can be edited in the graphical editor, with a default value set
+export(float) var Gravity = 9.8
 ```
